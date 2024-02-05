@@ -21,6 +21,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "src", "@types", "**/*.ts", "**/*.tsx",
+  ],
+  "rootDirs": ["src", "@types"],
+  "types": ["@emotion/react/types/css-prop"]
 }
